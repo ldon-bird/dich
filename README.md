@@ -1,5 +1,7 @@
+![Image of a disc changer](https://i.imgur.com/2ysAhJj.png "Disc changer")
+
 # dich
-dich (pronounced "ditch") stands for DIsc CHanger, a profile/configuration file manager.
+dich (pronounced "ditch") stands for DIsc CHanger, a profile/configuration file manager. Switch between your profiles as if you are using a good-ol' CD changer.
 
 ---
 
@@ -27,12 +29,12 @@ Use `dich -i` to initialize first before running other modes.
 
 dich has four primary modes: init `-i`, get `-g`,next `-n`, and set `-s`. The modes are pretty much self-explanatory.
 
-Use `dich -i` to initialize first before running other modes.
+* Use `dich -i` to initialize first before running other modes.
 
 After this, you can edit the list of candidate files `config.json` manually, or `dich -i` again if there are changes.
 
-`-g` would output the current state that the target file is in.
+* `-g` would output the current state that the target file is in.
 
-Use `-n` to update the target file to the next file in the candidate file list, or use `-s` to interactively specify a file to overwrite to the target.
+* Use `-n` flag to update the target file to the next file in the candidate file list, or use `-s` to interactively specify a file to overwrite to the target.
 
-Use `dich -h` for a brief help message.
+* Use `-h` flag for a brief help message.
