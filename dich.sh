@@ -135,6 +135,7 @@ while getopts ":ignsh" opt; do
       ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
+      help_mode
       exit 1
       ;;
   esac
