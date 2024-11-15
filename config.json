@@ -1,0 +1,5 @@
+{
+  "suffix": "cdsapirc.acc",
+  "directory": "./example/",
+  "target": "./example/.cdsapirc"
+}
